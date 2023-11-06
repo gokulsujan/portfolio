@@ -386,7 +386,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Let's talk Technology.";
 }
 .teams .carousel .card{
     background: #222;
@@ -395,9 +395,6 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
-}
-.teams .carousel .card:hover{
-    background: crimson;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -417,9 +414,9 @@ section .title::after{
 .teams .carousel .card img{
     height: 150px;
     width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
+    object-fit: contain;
+    /* border-radius: 50%;
+    border: 5px solid crimson; */
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
